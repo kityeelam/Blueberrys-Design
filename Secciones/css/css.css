@@ -163,22 +163,6 @@ footer div.f P {
     color: #4EB27A;
     font-size: 2rem;
 }
-
-/*Portafolio*/
-
-#Portafolio figure img{
-    width: 250px;
-    padding: 5% 0;
-}
-#Portafolio .seccion_1{
-    width: 80%;   
-    display: flex;
-    justify-content: space-between;
-    margin: 2% 10%;
-}
-#Portafolio .seccion_1 figure:nth-child(2){
-    margin-top: 5%;
-}
 #Botones div:nth-child(2){
     margin:-6.4% -50% 0 50%;
 }
@@ -222,12 +206,54 @@ footer div.f P {
     color: black;
     z-index: 20;
     transition: all 0.3s ease-in-out;
-}
-   
+}   
 #Botones button:hover span {
     color: white;
     animation: scaleUp 0.3s ease-in-out;
 }   
+
+/*Portafolio*/
+
+#Portafolio figure img{
+    width: 250px;
+    padding: 5% 0;
+}
+#Portafolio .seccion_1{
+    width: 80%;   
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10%;
+}
+#Portafolio .seccion_1 figure:nth-child(2){
+    margin-top: 5%;
+}
+#Portafolio figure img{
+    width: 250px;
+    padding: 5% 0;
+}
+#Portafolio #Marcas{
+    width: 80%;
+    height: 40%;
+    position: relative;
+    top: -50%;
+    left: 20%;
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+}
+#Portafolio #Marcas h3{
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 18%;
+}
+#Portafolio .seccion_1 a {
+    text-decoration:none;
+    color: black;
+}
+#Portafolio #Marcas img{
+    width: 80%;
+    margin-top: -30%;
+}
 
 @keyframes scaleUp {
     0% {
